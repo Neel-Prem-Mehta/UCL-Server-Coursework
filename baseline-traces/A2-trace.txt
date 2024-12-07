@@ -1,0 +1,74 @@
+Command: python3 client.py --set-queue-delay=0.1 --drop-client-packets=6
+
+Forwarding b'[client-ID] GET' from client to server
+
+Client received b'[client-ID] 0:FILENAME server_file.txt|ce761e35b3392713dec70f1c6eb493d4'
+
+Forwarding b'[client-ID] ACK 0' from client to server
+
+Client received b'[client-ID] 1:line1\n|1ddab9058a07abc0db2605ab02a61a00'
+Client received b'[client-ID] 2:line2\n|8475275e7210a7821f93475ff52669d3'
+
+Forwarding b'[client-ID] ACK 1' from client to server
+Forwarding b'[client-ID] ACK 2' from client to server
+
+Client received b'[client-ID] 3:line3\n|e548809a0abac953cb96330ac4e28a55'
+Client received b'[client-ID] 4:line4\n|6c28abc9fadebce4133e90193ca967d2'
+Client received b'[client-ID] 5:line5\n|e135e514d968fbb23416f19e0b820c39'
+
+Forwarding b'[client-ID] ACK 3' from client to server
+Forwarding b'[client-ID] ACK 5' from client to server
+
+Client received b'[client-ID] 6:line6\n|f1a6b665edc649efa47937061ce03414'
+Client received b'[client-ID] 7:line7\n|67439b1c9862b3beb4e1cdf029f3e903'
+Client received b'[client-ID] 8:line8\n|8293dee33f7bb624fe6b05876c78d9c6'
+
+Forwarding b'[client-ID] ACK 6' from client to server
+Forwarding b'[client-ID] ACK 7' from client to server
+Forwarding b'[client-ID] ACK 8' from client to server
+
+Client received b'[client-ID] 9:line9\n|a046321c783657b915ef2e930af27c13'
+Client received b'[client-ID] 10:line10\n|b369f5311b190a99fb9f01722770af39'
+Client received b'[client-ID] 11:line11\n|c8ad2b957f1bb5156275469a2ce51ebd'
+Client received b'[client-ID] 12:line12\n|3d473d06b0c7c635f62aeb6987f483b1'
+
+Forwarding b'[client-ID] ACK 9' from client to server
+Forwarding b'[client-ID] ACK 10' from client to server
+Forwarding b'[client-ID] ACK 11' from client to server
+Forwarding b'[client-ID] ACK 12' from client to server
+
+Client received b'[client-ID] 13:line13\n|f05b8fb68a7cb29b697d06b29af3a49d'
+Client received b'[client-ID] 14:line14\n|01a3622aaf0ca56e5b63c95dc3cf76a5'
+Client received b'[client-ID] 15:line15\n|e813e2add128dac3f88da223251527a7'
+Client received b'[client-ID] 16:line16\n|8107de44127d0df56a8e367da04e8d43'
+Client received b'[client-ID] 17:line17\n|cf65ff56290d52cd0a39b8a195d54417'
+
+Forwarding b'[client-ID] ACK 13' from client to server
+Forwarding b'[client-ID] ACK 14' from client to server
+Forwarding b'[client-ID] ACK 15' from client to server
+Forwarding b'[client-ID] ACK 16' from client to server
+Forwarding b'[client-ID] ACK 17' from client to server
+
+Client received b'[client-ID] 18:line18\n|45e9d611d8e1058ea3cbbeec0e4ab3b7'
+Client received b'[client-ID] 19:line19\n|6a4a3aca6f84509d6a25ce36eff5f1df'
+Client received b'[client-ID] 20:line20\n|b473360c71d0d3a1b97d6eedd2f2d265'
+Client received b'[client-ID] 21:line21\n|2755bbcf814c362bcd8052de52bdb32d'
+Client received b'[client-ID] 22:line22\n|14446fc31fb4e1ec0a6893fd629de5ea'
+Client received b'[client-ID] 23:line23\n|c8be3d4412ad746dddfe88d25a30b71b'
+
+Forwarding b'[client-ID] ACK 18' from client to server
+Forwarding b'[client-ID] ACK 19' from client to server
+Forwarding b'[client-ID] ACK 20' from client to server
+Forwarding b'[client-ID] ACK 21' from client to server
+Forwarding b'[client-ID] ACK 22' from client to server
+Forwarding b'[client-ID] ACK 23' from client to server
+
+Client received b'[client-ID] 24:line24\n|95ed2e9024cb6539ca1ab6f922f8cffe'
+Client received b'[client-ID] 25:line25\n|83e180abd800d1f521a5a09b3d9baf74'
+Client received b'[client-ID] FIN'
+
+Forwarding b'[client-ID] ACK 24' from client to server
+Forwarding b'[client-ID] ACK 25' from client to server
+Forwarding b'[client-ID] ACK FIN' from client to server
+
+Client received b'[client-ID] ACK'

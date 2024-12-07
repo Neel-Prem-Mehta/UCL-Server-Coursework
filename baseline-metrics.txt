@@ -1,0 +1,75 @@
+
+** Stats for test A1 **
+[Command: python3 client.py --set-queue-delay=0.1 --drop-server-packets=3]
+# different lines in client file --> 0
+
+** Stats for test A2 **
+[Command: python3 client.py --set-queue-delay=0.1 --drop-client-packets=6]
+# different lines in client file --> 0
+
+** Stats for test A3 **
+[Command: python3 client.py --set-queue-delay=0.1 --drop-server-packets=1,17]
+# different lines in client file --> 0
+
+** Stats for test B1 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-initcwnd=6]
+# different lines in client file --> 0
+# server packets in first window --> 6
+# RTTs to complete flow --> 10
+# server packets after the file transfer completed --> 0
+
+** Stats for test B2 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-initcwnd=6 --drop-server-packet=2]
+# different lines in client file --> 0
+# server packets in first window --> 5
+# RTTs to complete flow --> 12
+# server packets after the file transfer completed --> 0
+
+** Stats for test B3 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-initcwnd=6 --drop-server-packet=4]
+# different lines in client file --> 0
+# server packets in first window --> 5
+# RTTs to complete flow --> 14
+# server packets after the file transfer completed --> 0
+
+** Stats for test C1 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-buffer-size=3]
+# different lines in client file --> 0
+# server packets in first window --> 1
+# RTTs to complete flow --> 31
+# server packets after the file transfer completed --> 0
+
+** Stats for test C2 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-buffer-size=6 --set-server-initcwnd=4 --drop-server-packets=1]
+# different lines in client file --> 0
+# server packets in first window --> 3
+# RTTs to complete flow --> 14
+# server packets after the file transfer completed --> 0
+
+** Stats for test C3 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-buffer-size=3 --drop-server-packets=5]
+# different lines in client file --> 0
+# server packets in first window --> 1
+# RTTs to complete flow --> 44
+# server packets after the file transfer completed --> 0
+
+** Stats for test D1 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-buffer-size=1 --set-server-buffer-size-changes=2@5]
+# different lines in client file --> 0
+# server packets in first window --> 1
+# RTTs to complete flow --> 28
+# server packets after the file transfer completed --> 0
+
+** Stats for test D2 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-buffer-size=3 --set-server-buffer-size-changes=-2@8]
+# different lines in client file --> 0
+# server packets in first window --> 1
+# RTTs to complete flow --> 54
+# server packets after the file transfer completed --> 0
+
+** Stats for test D3 **
+[Command: python3 client.py --set-queue-delay=0.1 --set-server-buffer-size=3 --drop-server-packets=3 --set-server-buffer-size-changes=5@6]
+# different lines in client file --> 0
+# server packets in first window --> 1
+# RTTs to complete flow --> 33
+# server packets after the file transfer completed --> 0
